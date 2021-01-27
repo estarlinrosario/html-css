@@ -1,13 +1,15 @@
 
-
+/*Utilice el selector de tipo para que todo en el body tenga un padding y un margin de 0*/
 body{
     padding: 0;
     margin: 0;
 }
+/*utilice un selector de clase para que el nav completo tengo un background de un mismo color*/
 .navbar{
     background-color: teal;
 }
 
+/*utilice un selector de id para que el logo tenga un cambio y estilo unico y deferente a todas las demas etiquetas*/
 #logo{
     
     margin-left: 50px;
@@ -25,6 +27,7 @@ body{
     font-weight: bold;
     font-style: italic;
 }
+/*utilice un selector de clase para que el nav completo tengo un estilo igual en los botones de navegar*/
 
 .botones-nav ul{
     padding: 0;
@@ -59,6 +62,7 @@ body{
 
 }
 
+/*utilice un selector de clase para que todos los titulos tenga un estilo igual*/
 .title{
     font-family: Arial, Helvetica, sans-serif;
     color: teal;
@@ -71,7 +75,7 @@ body{
     font-weight: bold;
     font-size: 18pt;
 }
-
+/*utilice un selector de clase para que lo la data y los titutlos de la tabla tengan un mismo estilo*/
 .main-table,td,th{
     border-collapse: collapse;
     border: 2px solid tomato;
@@ -93,6 +97,7 @@ body{
     list-style: square ;
     
 }
+/*utilice un selector de atributo para que todos los inputs que sean tipo texto tenga el mismo estilo y formato*/
 
 input[type="text"]{
     color: tomato;
@@ -102,6 +107,8 @@ input[type="text"]{
     border-radius:10px;
     outline: none;
 }
+/*utilice un selector de atributo para que todos los inputs que sean tipo email tenga el mismo estilo y formato*/
+
 input[type="email"]{
     color:tomato;
     font-size: 16pt;
@@ -110,6 +117,8 @@ input[type="email"]{
     outline: none;
     
 }
+
+/*utilice un selector de atributo para que todos los inputs que sean tipo submit tenga el mismo estilo y formato*/
 
 input[type="submit"]{
     font-size: 16pt;
@@ -122,6 +131,8 @@ input[type="submit"]{
     width: 100px;
     border-color: teal;
 }
+
+/*utilice un selector de atributo para que todos los inputs que sean tipo submit y con tenga el mismo estilo y formato al pasar el mouse por encima*/
 input[type="submit"]:hover{
     background: transparent;
     cursor: pointer;
