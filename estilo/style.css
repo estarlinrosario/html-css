@@ -1,0 +1,142 @@
+
+
+body{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    background-color: teal;
+}
+
+#logo{
+    
+    margin-left: 50px;
+    font-size: 28pt;
+    border: 2px ridge tomato;
+    width: 300px;
+    text-align: center;
+    color: white;
+    border-radius: 25px;
+}
+
+#logo a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.botones-nav ul{
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+
+.botones-nav a{
+    text-decoration: none;
+    color: black;
+}
+.botones-nav a:hover{
+    
+    color: tomato;
+}
+
+.botones-nav li{
+    display: inline-block;
+    list-style: none;
+    border: 2px solid tomato;
+    text-align: center;
+    width: 100px;
+    font-size: 18pt;
+    height: 25px;
+    border-radius: 20px;
+}
+
+.botones-nav li:hover{
+    background: teal;
+    cursor: pointer;
+    color: tomato;
+
+}
+
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    color: teal;
+    font-style: oblique;
+    font-size: 28pt;
+}
+
+#title-table{
+    color: teal;
+    font-weight: bold;
+    font-size: 18pt;
+}
+
+.main-table,td,th{
+    border-collapse: collapse;
+    border: 2px solid tomato;
+    text-align: center;
+    line-height: 50px;
+    letter-spacing: 1.5px;
+}
+
+.main-table{
+    width: 100%;
+}
+
+.product{
+    color: tomato;
+    font-size: 14pt;
+}
+
+.product li{
+    list-style: square ;
+    
+}
+
+input[type="text"]{
+    color: tomato;
+    font-size: 16pt;
+    margin:0;
+    border: 2px solid teal;
+    border-radius:10px;
+    outline: none;
+}
+input[type="email"]{
+    color:tomato;
+    font-size: 16pt;
+    border: 2px solid teal;
+    border-radius:10px;
+    outline: none;
+    
+}
+
+input[type="submit"]{
+    font-size: 16pt;
+    color: teal;
+    text-align: center;
+    outline: none;
+    margin-left: 50px;
+    border-radius:10px ;
+    border: 2px solid;
+    width: 100px;
+    border-color: teal;
+}
+input[type="submit"]:hover{
+    background: transparent;
+    cursor: pointer;
+    color: tomato;
+}
+
+
+
+.formulario-persona{
+    font-size: 18pt;
+    color: teal;
+}
+
+.formulario{
+    border: 2px solid tomato;
+    padding: 10px;
+    text-align: center;
+}
