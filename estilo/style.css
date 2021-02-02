@@ -1,17 +1,21 @@
-
 /*Utilice el selector de tipo para que todo en el body tenga un padding y un margin de 0*/
-body{
+
+body {
     padding: 0;
     margin: 0;
 }
+
+
 /*utilice un selector de clase para que el nav completo tengo un background de un mismo color*/
-.navbar{
+
+.navbar {
     background-color: teal;
 }
 
+
 /*utilice un selector de id para que el logo tenga un cambio y estilo unico y deferente a todas las demas etiquetas*/
-#logo{
-    
+
+#logo {
     margin-left: 50px;
     font-size: 28pt;
     border: 2px ridge tomato;
@@ -21,30 +25,32 @@ body{
     border-radius: 25px;
 }
 
-#logo a{
+#logo a {
     text-decoration: none;
     color: white;
     font-weight: bold;
     font-style: italic;
 }
+
+
 /*utilice un selector de clase para que el nav completo tengo un estilo igual en los botones de navegar*/
 
-.botones-nav ul{
+.botones-nav ul {
     padding: 0;
     margin: 0;
     float: right;
 }
 
-.botones-nav a{
+.botones-nav a {
     text-decoration: none;
     color: black;
 }
-.botones-nav a:hover{
-    
+
+.botones-nav a:hover {
     color: tomato;
 }
 
-.botones-nav li{
+.botones-nav li {
     display: inline-block;
     list-style: none;
     border: 2px solid tomato;
@@ -55,28 +61,34 @@ body{
     border-radius: 20px;
 }
 
-.botones-nav li:hover{
+.botones-nav li:hover {
     background: teal;
     cursor: pointer;
     color: tomato;
-
 }
 
+
 /*utilice un selector de clase para que todos los titulos tenga un estilo igual*/
-.title{
+
+.title {
     font-family: Arial, Helvetica, sans-serif;
     color: teal;
     font-style: oblique;
     font-size: 28pt;
 }
 
-#title-table{
+#title-table {
     color: teal;
     font-weight: bold;
     font-size: 18pt;
 }
+
+
 /*utilice un selector de clase para que lo la data y los titutlos de la tabla tengan un mismo estilo*/
-.main-table,td,th{
+
+.main-table,
+td,
+th {
     border-collapse: collapse;
     border: 2px solid tomato;
     text-align: center;
@@ -84,69 +96,74 @@ body{
     letter-spacing: 1.5px;
 }
 
-.main-table{
-    width: 100%;
+.main-table {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.product{
+.product {
     color: tomato;
     font-size: 14pt;
 }
 
-.product li{
-    list-style: square ;
-    
+.product li {
+    list-style: square;
 }
+
+
 /*utilice un selector de atributo para que todos los inputs que sean tipo texto tenga el mismo estilo y formato*/
 
-input[type="text"]{
+input[type="text"] {
     color: tomato;
     font-size: 16pt;
-    margin:0;
+    margin: 0;
     border: 2px solid teal;
-    border-radius:10px;
+    border-radius: 10px;
     outline: none;
 }
+
+
 /*utilice un selector de atributo para que todos los inputs que sean tipo email tenga el mismo estilo y formato*/
 
-input[type="email"]{
-    color:tomato;
+input[type="email"] {
+    color: tomato;
     font-size: 16pt;
     border: 2px solid teal;
-    border-radius:10px;
+    border-radius: 10px;
     outline: none;
-    
 }
+
 
 /*utilice un selector de atributo para que todos los inputs que sean tipo submit tenga el mismo estilo y formato*/
 
-input[type="submit"]{
+input[type="submit"] {
     font-size: 16pt;
     color: teal;
     text-align: center;
     outline: none;
     margin-left: 50px;
-    border-radius:10px ;
+    border-radius: 10px;
     border: 2px solid;
     width: 100px;
     border-color: teal;
 }
 
+
 /*utilice un selector de atributo para que todos los inputs que sean tipo submit y con tenga el mismo estilo y formato al pasar el mouse por encima*/
-input[type="submit"]:hover{
+
+input[type="submit"]:hover {
     background: transparent;
     cursor: pointer;
     color: tomato;
 }
 
-
-
-.formulario-persona{
+.formulario-persona {
     font-size: 18pt;
     color: teal;
 }
 
-.formulario{
+.formulario {
     border: 2px solid tomato;
     padding: 10px;
     text-align: center;
